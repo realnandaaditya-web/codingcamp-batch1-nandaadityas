@@ -1,0 +1,74 @@
+body {
+    background-color: #5a0967;
+    color: rgb(19, 250, 19);
+    font: family b 612px;
+    ,
+    overscroll-behavior-block: ;
+    ;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    background-color: #3d0350;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+}
+
+form,
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+input[type="text"] {
+    flex: 2;
+}
+
+input[type="date"] {
+    flex: 1;
+}
+
+button {
+    background-color: #5be95b;
+    color: rgb(1, 1, 1);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #00ff15;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
